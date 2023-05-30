@@ -1,8 +1,9 @@
 # About 
 Homepage: https://www.link2.ca/
 
-# Solid Docs Status 
-## WebID + Pods 
+# Documentation 
+Documentation of solid development is messy, I've attempted to organize what I think is most useful below
+## Solid Servers
 Not too important, so just go the recommended
 - Recommended: [Github Repo Docs - Getting started](https://github.com/CommunitySolidServer/tutorials/blob/main/getting-started.md)
   - Great introduction, goes over concepts at good level. (30-45 mins)
@@ -15,9 +16,9 @@ Not too important, so just go the recommended
 ## 
 
 ## App dev
-- Recommended: [Solid React SDK](https://github.com/inrupt/solid-ui-react#development)
-  - Seems good for now, gonna go through storyboard and see what happens
-- [Demo Next-app](https://github.com/inrupt/solid-ui-react-demo)
-  - Dependency issues, and deprecated. Here's a [working one](https://github.com/link2pod/NextAppExample)
-- [Solidproject first-app tutorial]() 
-  - Parcel issues
+- Recommended: [solid-ui-react Github](https://github.com/inrupt/solid-ui-react#development)
+  - Good resource, follow instructions in [Development](https://github.com/inrupt/solid-ui-react#development) 
+  - **Note**: their [example app](https://github.com/inrupt/solid-ui-react-demo) has dependency issues, and is deprecated. Here's a [working one](https://github.com/link2pod/NextAppExample)
+  - **Note**: their [online storybook](https://solid-ui-react.docs.inrupt.com/) is also kindof broken. Cloning the repo and viewing the storybook locally works
+- [Solidproject first-app tutorial](https://solidproject.org/developers/tutorials/first-app) 
+  - Parcel issues, would not recommend
