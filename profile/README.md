@@ -9,6 +9,8 @@ Documentation of solid development is messy, I've attempted to organize what I t
   - Good resource, follow instructions in [Development](https://github.com/inrupt/solid-ui-react#development) 
   - **Note**: their [example app](https://github.com/inrupt/solid-ui-react-demo) has dependency issues, and is deprecated. Here's a [working one](https://github.com/link2pod/NextAppExample)
   - **Note**: their [online storybook](https://solid-ui-react.docs.inrupt.com/) is also kindof broken. Cloning the repo and viewing the storybook locally works
+- [Inrupt JS Library Usage Examples](https://docs.inrupt.com/developer-tools/javascript/client-libraries/using-libraries/)
+  - Provides good introduction to RDF modelling 
 - [Solidproject first-app tutorial](https://solidproject.org/developers/tutorials/first-app) 
   - Parcel issues, would not recommend
 
