@@ -1,7 +1,7 @@
 # About 
 Homepage: https://www.link2.ca/
 
-# Documentation 
+# Solid Documentation 
 Documentation of solid development is messy, I've attempted to organize what I think is most useful below
 
 ## App dev
