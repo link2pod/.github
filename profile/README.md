@@ -1,6 +1,9 @@
 # About 
 Homepage: https://www.link2.ca/
 
+# Agile 
+[Agile manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/)
+
 # Solid Documentation 
 Documentation of solid development is messy, I've attempted to organize what I think is most useful below
 
