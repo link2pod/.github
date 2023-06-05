@@ -1,8 +1,11 @@
 # About 
 Homepage: https://www.link2.ca/
 
-# Agile 
+# Agile Documentation
 [Agile manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/)
+
+# Ontology Docs 
+[Structured Data](https://docs.inrupt.com/developer-tools/javascript/client-libraries/structured-data/)
 
 # Solid Documentation 
 Documentation of solid development is messy, I've attempted to organize what I think is most useful below
