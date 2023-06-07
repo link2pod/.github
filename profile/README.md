@@ -30,3 +30,22 @@ Not too important, so just go the recommended
   - insufficient details for anything useful
 - [Github Repo Docs](https://github.com/CommunitySolidServer/CommunitySolidServer/tree/main/documentation/markdown)
   - More details, but useful tutorials and links to references
+
+### Authentication
+For solid authentication, there's many protocols being considered. The 2 main ones are WAC and ACP. 
+
+#### Web Access Control (WAC) 
+Server side: when server receives GET request for resource (say http://example.ttl) then it looks for corresponding acl file (default is http://example.ttl.acl, but could be different) 
+- If no acl file exists, permissions on the parent will be used (i.e. look for http://dir1/dir2/file.ttl.acl, then http://dir1/dir2/.acl, then http://dir1/.acl)
+- There's 4 permission modes: read, write, append, control, each with [corresponding representations](https://solid.github.io/web-access-control-spec/#authorization-rule) 
+  - control permission refers to ability to change the acl for the resource 
+- the acl file is a RDF file with [these requirements](https://solid.github.io/web-access-control-spec/#authorization-conformance). 
+
+Client side: client must send HEAD request for resource, then follow the "Link: rel=acl <url>" header to locate the required ACL resource, then GET it 
+- inrupt's [solid-client JS library](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/manage-wac/#change-access-to-a-resource) has helpful functions
+
+#### ACP 
+Server side: similar recursive permission inheritance 
+- 3 permissions: read, write, append 
+Client side: [inrupt library](https://docs.inrupt.com/developer-tools/javascript/client-libraries/tutorial/manage-acp/)
+
