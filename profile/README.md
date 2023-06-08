@@ -32,6 +32,7 @@ Not too important, so just go the recommended
   - More details, but useful tutorials and links to references
 
 ### Authentication
+Overview of authentication flow: https://solidproject.org/TR/oidc#basic-flow
 For solid authentication, there's many protocols being considered. The 2 main ones are WAC and ACP. 
 
 #### Web Access Control (WAC) 
